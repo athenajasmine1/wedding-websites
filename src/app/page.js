@@ -14,6 +14,14 @@ export default function Home() {
          John & Kristen
         </h1>
 
+        {/* Right: Navigation */}
+         <nav className="absolute right-6 space-x-6">
+          <a href="#" className="text-gray-700 hover:text-pink-500 font-medium">Home</a>
+          <a href="#" className="text-gray-700 hover:text-pink-500 font-medium">About</a>
+          <a href="#" className="text-gray-700 hover:text-pink-500 font-medium">RSVP</a>
+          <a href="#" className="text-gray-700 hover:text-pink-500 font-medium">Wedding</a>
+         </nav>
+
       </header>
       
     </main>
